@@ -1,13 +1,7 @@
 name: example workflows rabbitmq
-
 on: 
   workflow_dispatch
-
 jobs:
   initial_action_jobs:  
     runs-on: ubuntu-latest
-    steps:  
-       - name: Hi
-         run: echo "Hi"
-       - name: bye
-         run: echo "bye"
+    steps:
